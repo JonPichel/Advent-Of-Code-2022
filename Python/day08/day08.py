@@ -1,4 +1,4 @@
-with open("input", "r") as file:
+with open("input	", "r") as file:
     grid = [[int(c) for c in line.strip()] for line in file.readlines()]
 
 rows = len(grid)
